@@ -1,5 +1,5 @@
 # Real-time Handwritten Digit Recognition on FPGA
-
+![](intro.jpg)
 ## 1. Introduction
 This project implements a handwritten digit recognition system (LeNet-5) on FPGA using Vitis High-Level Synthesis (HLS) and integrates the generated IP into a Zynq UltraScale+ SoC platform. The model is trained in Python (Keras/TensorFlow), converted to C using a Py2C tool, synthesized into RTL using Vitis HLS, and finally deployed as a hardware accelerator on the KV260 FPGA board.
 
