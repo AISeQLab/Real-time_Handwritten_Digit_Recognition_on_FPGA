@@ -1,0 +1,32 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# FPGA build
+*.log
+*.jou
+*.str
+*.rpt
+*.runs/
+*.cache/
+
+# Vivado/Vitis
+*.xpr
+*.xpr.lock
+*.ip_user_files/
+*.sim/
+*.hw/
+*.xdc~
+*.tmp
+
+# HLS build
+*.autopilot/
+solution*/syn/
+solution*/impl/
+*.pragma
+
+# Linux binary
+*.o
+*.out
+*.exe

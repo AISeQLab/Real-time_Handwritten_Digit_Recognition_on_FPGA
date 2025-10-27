@@ -1,0 +1,40 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.852326",
+   "Default View_TopLeft":"0,-20",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 340 -y 160 -defaultsOSRD
+preplace inst cnn_top_0 -pg 1 -lvl 3 -x 1280 -y 250 -defaultsOSRD
+preplace inst inmodel_bram_ctrl -pg 1 -lvl 3 -x 1280 -y 80 -defaultsOSRD
+preplace inst inmodel_bram -pg 1 -lvl 4 -x 1580 -y 80 -defaultsOSRD
+preplace inst rst_ps8_0_99M -pg 1 -lvl 1 -x 340 -y 370 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 2 -x 870 -y 290 -defaultsOSRD
+preplace inst weights_bram_ctrl -pg 1 -lvl 3 -x 1280 -y 670 -defaultsOSRD
+preplace inst weights_bram -pg 1 -lvl 4 -x 1580 -y 670 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 3 -x 1280 -y 470 -defaultsOSRD
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 1 2 700 580 1080
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 3 20 260 690 570 1070
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 2 30 270 670
+preplace netloc cnn_top_0_m_axi_gmem0 1 1 3 690 10 1110 160 1450
+preplace netloc cnn_top_0_m_axi_gmem1 1 1 3 700 20 1100 330 1450
+preplace netloc inmodel_bram_ctrl_BRAM_PORTA 1 3 1 N 70
+preplace netloc inmodel_bram_ctrl_BRAM_PORTB 1 3 1 N 90
+preplace netloc ps8_0_axi_periph_M00_AXI 1 2 1 1050 220n
+preplace netloc ps8_0_axi_periph_M01_AXI 1 2 1 1060 240n
+preplace netloc ps8_0_axi_periph_M02_AXI 1 2 1 1090 60n
+preplace netloc ps8_0_axi_periph_M03_AXI 1 2 1 1040 320n
+preplace netloc weights_bram_ctrl_BRAM_PORTA 1 3 1 N 660
+preplace netloc weights_bram_ctrl_BRAM_PORTB 1 3 1 N 680
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 1 2 680 560 1110J
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM1_FPD 1 1 1 N 140
+levelinfo -pg 1 0 340 870 1280 1580 1720
+pagesize -pg 1 -db -bbox -sgen 0 0 1720 750
+"
+}
+{
+   "da_axi4_cnt":"15",
+   "da_bram_cntlr_cnt":"4",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}
