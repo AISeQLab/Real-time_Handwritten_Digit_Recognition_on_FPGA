@@ -47,6 +47,13 @@ The accelerator runs LeNet-5 on FPGA and produces classification results by read
 - Optimize resource usage and frequency
 - Quantization-aware training for higher accuracy
 
-## 9. License
+## 9. Donation
+If you find this project useful and would like to support further development or to help students continue working on this topic as their thesis or research project, you can donate via the bank account below.
+
+
+![](bank.jpg)
+
+
+## 10. License
 MIT License
 
